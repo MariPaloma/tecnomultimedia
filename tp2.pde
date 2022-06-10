@@ -1,5 +1,5 @@
 //https://youtu.be/OOOiGqWjmuE
-//Mi video tiene 23 segundos de más,lo hice lo más corto posible
+//Mi video tiene 24 segundos de más,lo hice lo más corto posible
 //Interactividad con R, Y, Mouse y ESPACIO
 //variables
 int cant = 1000;
