@@ -19,13 +19,7 @@ float x2;
 PImage []escenario= new PImage[4];
 PImage [] frutas = new PImage [2];
 PFont fuente;
-/*PImage suelito;
-PImage canasta;
-PImage frutilla;
-PImage uva;
-PImage toldo;
-PFont fuente;
-PImage frutillitaa;*/
+
 
 //canasta
 float Xc, Yc=500, Tc=200;
@@ -39,12 +33,6 @@ void setup(){
   escenario[3]= loadImage("frutillitaa.png");//frutillitaa
 
   
-  //suelo y canasta
-  /*canasta= loadImage("canasta.png");
-  suelito = loadImage("suelito.jpg");
-  toldo= loadImage("toldo.png");
-  frutillitaa= loadImage("frutillitaa.png");*/
-  
   //comidas
   frutas[1] = loadImage("frutilla.png");
   frutas[0]= loadImage("uva.png");
@@ -57,11 +45,14 @@ void draw(){
   
   println(estado);
   
-  //funciones
+  //funciones propias
   inicio();
   pantallaCreditos();
   jugando();
-  ganaste();
+  
+  //funciones con parámetros
+  ganaste(210,120,200,520);
+  perdiste(190,300,100,530);
 }
 void mouseClicked(){ //activar boton
 if(mouseX>160&&mouseY<345&&mouseX<350&&mouseY>310){
