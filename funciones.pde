@@ -19,13 +19,6 @@ void inicio(){
   image(frutas[1],130,300,50,60);
   image(frutas[0],400,370,60,60);
   
-  //pantalla de inicio
- /* image(toldo,0,0,600,150);
-  image(suelito,0,500);
-  image(canasta,195,400,200,200);
-  image(frutilla,130,300,50,60);
-  image(uva,400,370,60,60);*/
-  
   textSize(13);  
   textFont(fuente);
   
@@ -144,7 +137,7 @@ void pantallaCreditos(){
   
  }
 }
-void ganaste(){
+void ganaste(int x, int y, int x2, int y2){
 //pantalla de ganaste
 if(puntos>14){
   estado=3;
@@ -154,22 +147,24 @@ if(estado==3){
   image(escenario[3],100,110);
   fill(0);
   textSize(40);
-  text(mensaje[0],210,120);
+  text(mensaje[0],x,y);
    fill(0);
   textSize(20);
-  text("Presiona barra espaciadora",200,520);
+  text("Presiona barra espaciadora",x2,y2);
   text("para volver al inicio",220,540);}
+  }
   
-  else if(puntos<0){
+  void perdiste(int x, int y,int x2, int y2){
+  if(puntos<0){
     estado=4;
     if(estado==4){
       background(#F01347);
   fill(0);
   textSize(50);
-  text(mensaje[1],190,300);
+  text(mensaje[1],x,y);
   fill(255);
     textSize(30);
-   text("Toca R para ir al Inicio ",100,530);
+   text("Toca R para ir al Inicio ",x2,y2);
 }
 }
 }
