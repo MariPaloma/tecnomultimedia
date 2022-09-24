@@ -5,7 +5,7 @@
 
 //Constructor:
 //Gato sobre Cama, en el eje x
-//Cuando Lana toca a Gato, Gato cambia de posición
+//Objetivo: Cuando se da MouseClicked sobre Gato, por cada click se cambia de imagen(hasta 4)
 
 //Métodos:
 //CambiaGatito(){
