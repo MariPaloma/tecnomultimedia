@@ -13,4 +13,8 @@ Lana L
 
 //void draw(){
   background();
+  
+//void MouseClicked(){
+  CambiaGatito();
+  
 }
