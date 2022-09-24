@@ -5,10 +5,6 @@
 //Cama en el centro, por el eje x, tamaño (?)
 
 //Constructor
-//Cargar imagén y darle un tamaño
-//Al mover un ovillo de Lana hasta la Cama , Cama cambia de color;
+//Cargar imagén y darle un tamaño, Cama es la clase que quedará estática, es la base de Clase Gato
 
-//Métodos:
-// cambiarColor(){
-//void reinicio(){
 }}
