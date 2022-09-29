@@ -1,20 +1,15 @@
-//Otros: Gatito que cambia de posición/acción al darle un ovillo de lana:
-//Clases:
-Gato G
-Cama C
-Lana L
+Principal living;
 
+void setup(){
+  size(605,505);
+living= new Principal();
+}
 
-//void setup(){
-  //Declarar objetos: 
-  size(?,?);
+void draw(){
+  living.dibujo();
   
 }
 
-//void draw(){
-  background();
-  
-//void mouseClicked(){
-  CambiaGatito();
-  
+void mouseClicked(){
+  living.interaccion();
 }
