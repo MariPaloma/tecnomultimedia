@@ -1,4 +1,4 @@
-//minijuego realizado con Romina Miccono, legajo 19444/7
+//minijuego realizado con Romina Miccono, legajo 91444/7
 //Link de Yt:
 
 class Principal {
