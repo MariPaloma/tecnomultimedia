@@ -1,5 +1,7 @@
 //minijuego realizado con Romina Miccono, legajo 91444/7
-//Link de Yt:
+//Link de Yt:	https://youtu.be/7bO9i0UJV8Q
+
+
 
 class Principal {
   Hermanos[] hermanito1=new Hermanos[2];
